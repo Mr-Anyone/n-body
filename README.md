@@ -17,3 +17,14 @@ The code demonstrates:
 ## Requirements
 - CUDA Toolkit (tested with CUDA 13)
 - `make` and `g++`/`nvcc`
+
+## Build 
+
+```
+git clone https://github.com/Mr-Anyone/n-body.git 
+cd n-body 
+mkdir build 
+cd build 
+cmake .. 
+make -j
+```
